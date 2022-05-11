@@ -1,0 +1,33 @@
+body {
+    color: rgb(245, 179, 179);
+    background-image: url("https://img.freepik.com/free-photo/abstract-background-horizontal-blue-lines-bright-festive-background_73152-7005.jpg?size=626&ext=jpg&ga=GA1.2.42966340.1652217506");
+    font-family: Georgia;
+    background-size: cover;
+}
+#intro{
+    color: rgb(255, 255, 255);
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-68141.jpg?size=338&ext=jpg&ga=GA1.2.42966340.1652217506");
+    font-family: Georgia;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    background-size: cover;
+    border: 10px;
+    border-style: solid;
+    border-color: aliceblue;
+
+}
+
+h2{
+    font-size: 35px;
+}
+.hey{
+    text-align: center;
+    font-family: monospace;
+}
+
+.intro{
+    text-align: center;
+    font-family: Georgia;
+    
+}
