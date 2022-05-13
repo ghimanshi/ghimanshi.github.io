@@ -1,0 +1,41 @@
+.header{
+    background-color: hwb(254 82% 6%);
+    height: 100px;
+}
+
+.title{
+    height: 150px;
+    font-family: monospace;
+    font-size: 50px ;
+    position: relative;
+    top: -30px;
+    padding: 10px;
+    
+
+}
+
+body{
+    background-color: #BCC3E6;
+}
+
+.tabs{
+    background-color: #D8D1F0;
+    height: 80px;
+}
+.tabs a{
+    background-color: black !important;
+    height: 100px;
+    color: white;
+    border: black solid;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+
+
+}
+.tabs a:hover{
+    background-color:hwb(254 82% 6%) ;
+    color: black;
+}
