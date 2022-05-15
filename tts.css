@@ -1,8 +1,13 @@
 .header{
     background-color: hwb(254 82% 6%);
-    height: 100px;
+    height: 110px;
+    border: white dashed 5px;
+    margin: auto;
 }
 
+*{
+    box-sizing: border-box;
+}
 .title{
     height: 150px;
     font-family: monospace;
@@ -10,6 +15,7 @@
     position: relative;
     top: -30px;
     padding: 10px;
+    border: white solid 5 px;
     
 
 }
@@ -31,11 +37,41 @@ body{
     font-family: monospace;
     font-size: 30px;
     position: relative;
-    top: 30px;
+    top: 20px;
+    left: 10px;
 
 
 }
 .tabs a:hover{
     background-color:hwb(254 82% 6%) ;
-    color: black;
+    color: #BCC3E6;
+}
+
+.quote{
+    height: 200px;
+    border: white double 10px;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/31/50/56/1000_F_431505642_C3DH5dh0GnGuzLG3AUbqOxGKK3gFhgAk.jpg");
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 70px;
+    padding-top:20px ;
+
+}
+.why p{
+    margin:auto;
+    background-color: rgb(246, 240, 252);
+    color: rgb(88, 0, 136);
+    font-family: monospace;
+    max-width: 1050px;
+    min-width: 100px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    word-spacing: 3px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
 }
