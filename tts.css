@@ -49,7 +49,7 @@ body{
 
 .quote{
     height: 200px;
-    border: white double 10px;
+    border: white double 20px;
     background-image: url("https://as1.ftcdn.net/v2/jpg/04/31/50/56/1000_F_431505642_C3DH5dh0GnGuzLG3AUbqOxGKK3gFhgAk.jpg");
     background-size: cover;
     margin: auto;
