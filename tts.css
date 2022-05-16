@@ -16,7 +16,7 @@
     top: -30px;
     padding: 10px;
     border: white solid 5 px;
-    min-width: 1000px;
+    min-width: 800px;
     
 
 }
@@ -62,7 +62,7 @@ body{
     color: white;
     font-size: 70px;
     padding-top:20px ;
-    min-width: 1000px;
+    min-width: 800px;
     max-height: 300px;
 
 }
@@ -79,6 +79,6 @@ body{
     position: relative;
     top: 40px;
     font-size: 20px;
-    min-width: 1000px;
+    min-width: 800px;
     overflow:scroll;
 }
