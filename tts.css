@@ -11,7 +11,7 @@
 .title{
     height: 150px;
     font-family: monospace;
-    font-size: 50px ;
+    font-size: 55px ;
     position: relative;
     top: -30px;
     padding: 10px;
@@ -80,4 +80,5 @@ body{
     top: 40px;
     font-size: 20px;
     min-width: 1000px;
+    overflow:scroll;
 }
