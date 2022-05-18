@@ -22,7 +22,7 @@
 }
 
 body{
-    background-color: #BCC3E6;
+    background-color:#000; /*#BCC3E6;*/
 }
 
 .tabs{
@@ -82,4 +82,8 @@ body{
     min-width: 200px;
     
     
+}
+.clipart{
+    position: relative;
+    top: 30px;
 }

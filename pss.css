@@ -1,0 +1,94 @@
+.header{
+    background-color: hwb(254 82% 6%);
+    height: 110px;
+    border: white dashed 5px;
+    margin: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+.title{
+    height: 150px;
+    font-family: monospace;
+    font-size: 55px ;
+    position: relative;
+    top: -30px;
+    padding: 10px;
+    border: white solid 5 px;
+    min-width: 200px;
+    
+
+}
+
+body{
+    background-color: #000;
+}
+
+.tabs{
+    background-color: #D8D1F0;
+    height: 80px;
+    text-decoration: none;
+
+}
+.tabs a{
+    background-color: black !important;
+    height: 100px;
+    color: white;
+    border: black solid;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    text-decoration: none;
+    
+
+
+}
+.tabs a:hover{
+    background-color:hwb(254 82% 6%) ;
+    color: #BCC3E6;
+}
+
+.tabs,
+poems {
+    color: #D8D1F0 !important;
+}
+
+.Poetries{
+    font-family: monospace;
+    color: white;
+    text-decoration: underline dashed;
+    font-size: 40px;
+    text-align: center;
+
+}
+.ListofPoetries a{
+    font-family: monospace;
+    font-size: 30px;
+    color:#ffffff;
+    text-decoration: none;
+
+
+
+}
+.ListofPoetries a:hover{
+    color:rgb(88, 0, 136);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
