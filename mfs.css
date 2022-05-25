@@ -162,3 +162,19 @@ body{
     
     
 }
+.social p img{
+    padding: 10px;
+}
+.social p{
+    height:100px;
+    width: 100px;
+
+}
+.social p:hover{
+    height:120px;
+    width: 120px;
+    background-color: #071E3D;
+    border-radius: 30px;
+    top: -10px;
+    
+}
