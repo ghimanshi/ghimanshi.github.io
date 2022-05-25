@@ -1,33 +1,164 @@
-body {
-    color: rgb(245, 179, 179);
-    background-image: url("https://img.freepik.com/free-photo/abstract-background-horizontal-blue-lines-bright-festive-background_73152-7005.jpg?size=626&ext=jpg&ga=GA1.2.42966340.1652217506");
-    font-family: Georgia;
-    background-size: cover;
+body{
+    background-color: #071E3D;
+    color:aliceblue;
+    background-image: url("https://wallpaperaccess.com/full/676347.jpg");
 }
-#intro{
-    color: rgb(255, 255, 255);
-    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-68141.jpg?size=338&ext=jpg&ga=GA1.2.42966340.1652217506");
-    font-family: Georgia;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    background-size: cover;
-    border: 10px;
-    border-style: solid;
-    border-color: aliceblue;
-
-}
-
-h2{
-    font-size: 35px;
-}
-.hey{
-    text-align: center;
+#greet{
+    background-color: #071E3D;
     font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    top: -10px;
+    z-index: auto;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
+
+.tab{
+    background-color: #071E3D;
+    position: fixed;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 50px;
+    top: -15px;
+    z-index: auto;
+    
+
+}
+.tab a{
+    
+    height: 40px;
+    background-color: #21E6C1;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tab a:hover{
+    
+    height: 45px;
+    background-color: white;
+    color: #21E6C1;
+    border-radius: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 .intro{
+    height: 200px;
+    background-color: #278EA5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 150px;
     text-align: center;
-    font-family: Georgia;
+    border-radius: 40px;
+    padding: 10px;
+    border: solid 20px #0c697e;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+#introduction{
+    height:fit-content;
+    background-color: #21E6C1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 20px #1F4287;
+    float: left;
+
+    
+    
+}
+#skillsets{
+    height:fit-content;
+    background-color: #21E6C1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 20px #1F4287;
+    float:left;
+    margin-top: 50px;
+    width:95%;
+    margin-left: auto ;
+    margin-right: auto;
+    
+    
+
+    
+    
+}
+
+.social{
+    height:fit-content;
+    background-color: #21E6C1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 20px #1F4287;
+    float:left;
+    margin-top: 50px;
+    width:95%;
+    margin-left: auto ;
+    margin-right: auto;
+    
+    
+
+    
+    
+}
+
+.project{
+    height:fit-content;
+    background-color: #21E6C1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 20px #1F4287;
+    float:left;
+    margin-top: 50px;
+    width:95%;
+    margin-left: auto ;
+    margin-right: auto;
+    
+    
+
+    
     
 }
