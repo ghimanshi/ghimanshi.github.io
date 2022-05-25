@@ -135,6 +135,7 @@ body{
     margin-right: auto;
     
     
+    
 
     
     
@@ -168,6 +169,8 @@ body{
 .social p{
     height:100px;
     width: 100px;
+    display: inline-block;
+    margin: 10px;
 
 }
 .social p:hover{
