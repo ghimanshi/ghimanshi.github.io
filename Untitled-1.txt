@@ -1,0 +1,35 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    long long t,l;
+    cin>>t;
+    string s,st="";
+    char ch;
+    for(long long i=0;i<t;i++)
+    {
+        cin>>l;
+        //getline(cin,s);
+        cin>>s;
+        long long a[5]={0,0,0,0,0};
+        for(long long j=0;j<l;j++)
+        {
+            if(s[j]=='s' || s[j]=='o' || s[j]=='h' || s[j]=='a' || s[j]=='m' ||)
+            {
+                ch=a[j];
+                strcat(st,ch);
+            }
+        }
+       
+        
+    }
+    return 0;
+}
