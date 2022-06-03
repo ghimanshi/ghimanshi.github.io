@@ -1,222 +1,162 @@
-body{
-    background-color: #071E3D;
-    color:aliceblue;
-    background-image: url("https://wallpaperaccess.com/full/676347.jpg");
-}
 *{
-    margin:0;
-    padding:0;
-    
+    margin:0px;
+    padding: 0px;
 }
-#greet{
-    background-color: #071E3D;
+body{
+    background-image: url("https://media.istockphoto.com/vectors/distance-learning-white-doodles-on-black-background-vector-id1257483142?s=612x612");
+    
+
+}
+#scroll{
+    background-color: white;
+    height: 47vh;
+    width: 70vw;
+    /* margin-top: 150px !important; */
+    margin-left: 10vw !important;
+    overflow: scroll;
+    position: fixed;
+    top: 180px !important;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    padding: 5vw;
+
+}
+
+#scroll::-webkit-scrollbar{
+    display:none;
+}
+#Header{
+    position:fixed;
+    height: 25vh;
+    width: 100vw;
+    background-color: black;
+    
+
+}
+
+.greet{
+    font-size: 35px;
     font-family: monospace;
     color: white;
     text-align: center;
-    font-size: 40px;
-    position: fixed;
-    width: 100%;
-    top: -10px;
-    z-index: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    height: 100px;
-    padding: 10px;
 }
-
 
 .tab{
-    background-color: #071E3D;
-    position: fixed;
-    margin-top: 100px;
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 65px;
-    top: -5px;
-    z-index: auto;
-    padding:10px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .tab a{
-    
-    height: 55px;
-    background-color: #21E6C1;
-    color: white;
-    border-radius: 10px;
-    font-size: 40px;
-    text-decoration: none;
-    position: relative;
-    left: 10px;
-    padding: 5px;
-    margin: 10px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-
+    color: white;
+    padding: 5vw;
+    text-decoration: none;
+    
 }
+
 .tab a:hover{
+    color:rgb(144, 144, 230) !important;
+    transition: 0.3;
+}
+
+.Intro{
+    background-color: black !important;
+    opacity: 0.8;
+    width: 60vw;
+    height:10vh;
+    margin: auto;
+    padding: 4vw;
+    border: white double 20px;
     
-    height: 55px;
-    background-color: white;
-    color: #21E6C1;
-    border-radius: 10px;
-    font-size: 40px;
-    text-decoration: none;
-    position: relative;
-    left: 10px;
-    padding: 5px;
-    margin: 10px;
+
+    
+
+}
+.Intro img{
+    height: 100px;
+    width:130px;
+    align-self: right;
+    
+} 
+.Intro img:hover{
+    height: 110px;
+    width:150px;
+    transition:0.3;
+
+
+}
+.introtext{
+    color:white;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-
-}
-.intro{
-    height: fit-content;
-    background-color: #278EA5;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin-top: 220px;
     text-align: center;
-    border-radius: 40px;
-    padding: 30px;
-    border: solid 20px #0c697e;
-    margin-left: auto ;
-    margin-right: auto;
-    width: 70%;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Intro:hover{
+    opacity:1;
+    transition: 0.3;
+
 }
 
-#introduction{
-    width:auto;
-    height: fit-content;
-    padding-top: 150px;
-    
-
-    
-    
-}
 .intromain{
-    
-    height:fit-content;
-    background-color: #21E6C1;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+    margin-top: 5vw;
     text-align: center;
-    border-radius: 40px;
-    font-size: 30px;
-    padding: 10px;
-    border: solid 20px #1F4287;
-    float: left;
-}
-
-#skillsets{
-    margin-top:200px;
-    
-    
-    width:auto;
-    height: fit-content;
-    
-
-    
-    
-}
-
-.skills{
-    height:fit-content;
-    background-color: #21E6C1;
-    color: white;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    border-radius: 40px;
-    font-size: 30px;
-    padding-top: 30px!important;
-    padding-left: 50px !important;
-    padding-bottom: 30px !important;
-    border: solid 20px #1F4287;
-    float:left;
-    margin-top: 50px;
-    width:95%;
-    margin-left: auto  !important;
-    margin-right: auto !important;
-    
-    
-
-    
-    
-}
-.skills ul{
-    list-style-type:disc;
-    text-align: left;
-
 }
 
-.skills ul li ul{
-    list-style-type: square;
+#skills{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 5vw;
+
 }
 
 .social{
-    height:fit-content;
-    background-color: #21E6C1;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin:auto;
     text-align: center;
-    border-radius: 40px;
-    font-size: 30px;
-    padding: 10px;
-    border: solid 20px #1F4287;
-    float:left;
-    margin-top: 50px;
-    width:95%;
-    margin-left: auto ;
-    margin-right: auto;
-    
-    
-    
-
-    
-    
-}
-
-.project{
-    height:fit-content;
-    background-color: #21E6C1;
-    color: white;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    margin:auto;
-    text-align: center;
-    border-radius: 40px;
-    font-size: 30px;
-    padding: 10px;
-    border: solid 20px #1F4287;
-    float:left;
-    margin-top: 50px;
-    width:95%;
-    margin-left: auto ;
-    margin-right: auto;
-    
-    
-
-    
-    
-}
-.social p img{
-    padding: 10px;
 }
 .social p{
-    height:100px;
-    width: 100px;
+    background-color: black;
+    height: 80px !important;
+    width:90px;
     display: inline-block;
     margin: 10px;
+    
 
 }
+
 .social p:hover{
-    height:120px;
-    width: 120px;
-    background-color: #071E3D;
-    border-radius: 30px;
-    top: -10px;
-    
+    background-color:rgb(144, 144, 230) ;
+}
+.social img{
+    height: 60px;
+    width: 70px;
+    padding: 10px;
+}
+
+#projects{
+    margin:20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#skills h4{
+    text-align: center;
+    text-decoration: underline;
+     
+}
+
+#projects b{
+    text-align: center;
+    text-decoration: underline;
 }
