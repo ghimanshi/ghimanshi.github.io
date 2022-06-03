@@ -15,7 +15,7 @@ body{
     margin-left: 10vw !important;
     overflow: scroll;
     position: fixed;
-    top: 180px !important;
+    top: 30vh !important;
     -ms-overflow-style: none; 
     scrollbar-width: none;
     padding: 5vw;
