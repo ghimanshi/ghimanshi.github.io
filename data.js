@@ -571,7 +571,7 @@ for(i in products){
     newgrid.appendChild(newP);
     newgrid.className="gridItem";
     uniqueGrid.className=`gridItem-${count}`;
-    newP.innerHTML=`PRODUCT-${count} <br><br>  ${products[j].title} <br><br> ${products[j].description}<br>`;
+    newP.innerHTML=`<p class="ptitle">${products[j].title}</p> <br><br> ${products[j].description}<br>`;
     count++
     j++;
 }
@@ -579,7 +579,7 @@ for(i in products){
 var input = document.getElementsByName("searchBar").value;
 for(i=1;i<=30;i++){
     var wanted=document.getElementsByClassName(`gridItem-${i}`);
-    if(!(input in products[i].description)){
+    if(!(input.isinproducts[i].description)){
         wanted.style.display="none";
     }
 }
