@@ -554,32 +554,64 @@ var products = [
         
     ]
     
-let count =1;
-let j=0;
-console.log(products);
-for(i in products){
-    console.log(i);
-    var uniqueGrid=document.createElement("div");
-    var newgrid = document.createElement("div");
-    var newP= document.createElement("p");
-    var grid = document.getElementsByClassName("product-grid")[0];
-    var newimg=document.createElement("img");
-    newimg.src=products[i].thumbnail;
-    newgrid.appendChild(newimg);
-    grid.appendChild(uniqueGrid);
-    uniqueGrid.appendChild(newgrid);
-    newgrid.appendChild(newP);
-    newgrid.className="gridItem";
-    uniqueGrid.className=`gridItem-${count}`;
-    newP.innerHTML=`<p class="ptitle">${products[j].title}</p> <br><br> ${products[j].description}<br>`;
-    count++
-    j++;
-}
+    let count = 1;
+        let j = 0;
 
-var input = document.getElementsByName("searchBar").value;
-for(i=1;i<=30;i++){
-    var wanted=document.getElementsByClassName(`gridItem-${i}`);
-    if(!(input.isinproducts[i].description)){
-        wanted.style.display="none";
-    }
-}
+        for (i in products) {
+            var uniqueGrid = document.createElement("div");
+            var newgrid = document.createElement("div");
+            var newP = document.createElement("p");
+            var grid = document.getElementsByClassName("product-grid")[0];
+            var newimg = document.createElement("img");
+            newimg.src = products[i].thumbnail;
+            newgrid.appendChild(newimg);
+            grid.appendChild(uniqueGrid);
+            uniqueGrid.appendChild(newgrid);
+            newgrid.appendChild(newP);
+            newgrid.className = "gridItem";
+            uniqueGrid.className = `gridItem-${count}`;
+            newP.innerHTML = `<p class="ptitle">${products[j].title}</p> <br><br> ${products[j].description}<br>`;
+            count++
+            j++;
+        }
+        document.getElementById("submit").onclick = function () {
+
+            // list ko khali kardo
+            document.getElementsByClassName("product-grid")[0].innerHTML = "";
+
+
+            // list me saare products dal do
+            let count = 1;
+            let j = 0;
+
+            for (i in products) {
+                var uniqueGrid = document.createElement("div");
+                var newgrid = document.createElement("div");
+                var newP = document.createElement("p");
+                var grid = document.getElementsByClassName("product-grid")[0];
+                var newimg = document.createElement("img");
+                newimg.src = products[i].thumbnail;
+                newgrid.appendChild(newimg);
+                grid.appendChild(uniqueGrid);
+                uniqueGrid.appendChild(newgrid);
+                newgrid.appendChild(newP);
+                newgrid.className = "gridItem";
+                uniqueGrid.className = `gridItem-${count}`;
+                newP.innerHTML = `<p class="ptitle">${products[j].title}</p> <br><br> ${products[j].description}<br>`;
+                count++
+                j++;
+            }
+
+
+            // jo products nahi hai unko hata do
+            let k = 1;
+            var input = document.getElementById("search").value;
+            for (i = 0; i < 30; i++) {
+                var wanted = document.getElementsByClassName(`gridItem-${k}`);
+
+                if (!(products[i].title.toLowerCase().includes(input.toLowerCase()) || products[i].description.toLowerCase().includes(input.toLowerCase()))) {
+                    wanted[0].style.display = "none";
+                }
+                k++;
+            }
+        }
