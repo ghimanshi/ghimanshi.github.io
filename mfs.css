@@ -4,7 +4,7 @@
 }
 body{
     background-image: url("https://media.istockphoto.com/vectors/distance-learning-white-doodles-on-black-background-vector-id1257483142?s=612x612");
-    
+    background-color: black;
 
 }
 #scroll{
@@ -65,11 +65,13 @@ body{
 .Intro{
     background-color: black !important;
     opacity: 0.8;
-    width: 60vw;
-    height:10vh;
+    min-width: 60vw;
+    min-height:10vh;
     margin: auto;
     padding: 4vw;
     border: white double 20px;
+    max-height: fit-content;
+    max-width: fit-content;
     
 
     
@@ -119,7 +121,8 @@ body{
 }
 .heading{
     background-color: black !important;
-    width: 60vw;
+    min-width: 60vw;
+    max-width: fit-content;
     height: fit-content;
     padding:5px;
     color: white !important;
@@ -127,7 +130,8 @@ body{
 
 #skills p{
     background-color: rgb(200, 200, 247);
-    width: 60vw;
+    min-width: 60vw;
+    max-width: fit-content;
     height: fit-content;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -141,8 +145,9 @@ body{
 }
 .social p{
     background-color: black;
-    height: 80px !important;
-    width:90px;
+    min-height: 80px !important;
+    max-height: fit-content;
+    max-width: fit-content;
     display: inline-block;
     margin: 10px;
     
