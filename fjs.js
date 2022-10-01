@@ -1,4 +1,4 @@
-// alert("For better experience, open this link in a desktop, please!");
+alert("For better experience, open this link in a desktop, please!");
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
