@@ -128,13 +128,21 @@ body{
     color: white !important;
 } 
 
-#skills p{
+#skills p, #projects a{
     background-color: rgb(200, 200, 247);
     min-width: 60vw;
     max-width: fit-content;
     height: fit-content;
     margin-top: 2px;
     margin-bottom: 2px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+#projects a{
+    margin-left: 50px;
 }
 
 
@@ -182,3 +190,4 @@ body{
     text-align: center;
     text-decoration: underline;
 }
+
